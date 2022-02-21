@@ -1,0 +1,730 @@
+id: 3c1cd1cbcc7b5642516d3f
+created: 2022-02-20T17:15:13.981Z
+projectId: 9OTlnY2klk2r4h-5NbjtUQ
+projectName: My first Project
+owner: Pooja J
+protocol: 1
+tests:
+  - id: 3cfc05439e23dfe7cbec7a
+    name: Pooja
+    description: ""
+    platform: Web
+    type: Web
+    driverType: Chrome
+    version: "0.1"
+    creationDate: 2022-02-20T17:15:13.981Z
+    modificationDate: 2022-02-20T17:18:59.911Z
+    settings:
+      appId: opBT_KxBx0KH7pepLCQJIA
+      automationAssistant: true
+      stepSleepTime: 500
+      stepTimeout: 15000
+      stepSleepTiming: Before
+      stepFailureBehaviorType: Abort
+      stepTakeScreenshotConditionType: Failure
+    application:
+      id: opBT_KxBx0KH7pepLCQJIA
+      name: Gmail
+      url: https://mail.google.com/mail/u/0/#inbox
+      platform: Web
+    steps:
+      - id: 00e0daaa6895454790f3e5
+        comments: Navigates the specified URL (Auto-generated)
+        enabled: true
+        invertResult: false
+        order: 1
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+        parameterMaps:
+          - direction: Input
+            name: url
+            value: "{{ApplicationURL}}"
+        conditions: []
+        validations: []
+        contexts: []
+      - id: c02b2917434c0bd49e4b88
+        comments: ""
+        enabled: true
+        order: 2
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 33882c8422da88b5691e68
+      - id: a63482cc20a414322aa0e7
+        comments: ""
+        enabled: true
+        order: 3
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 33882c8422da88b5691e68
+      - id: 74b1ac29a7b9a898c388ca
+        comments: ""
+        enabled: true
+        order: 4
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 33882c8422da88b5691e68
+      - id: e84fcf8327b5c5f700b66d
+        comments: ""
+        enabled: true
+        order: 5
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - direction: Input
+            name: keys
+            value: poojaj.mca20@rvce.edu.in
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 33882c8422da88b5691e68
+      - id: 292e2c821e9da4a1f45085
+        comments: ""
+        enabled: true
+        order: 6
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 00f80e4f0f5eea1e675762
+      - id: 3d3935691b20bce9d80dbd
+        comments: ""
+        enabled: true
+        order: 7
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: e506801fdb741d9452d2e4
+      - id: ab27812cd8cc9b1b27a91c
+        comments: ""
+        enabled: true
+        order: 8
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - direction: Input
+            name: keys
+            value: pooja*555
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: e506801fdb741d9452d2e4
+      - id: 616059aaf10f0626acd756
+        comments: ""
+        enabled: true
+        order: 9
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: e00e543e3775ede1836d1e
+      - id: 49872e6f33f26c25647400
+        comments: ""
+        enabled: true
+        order: 10
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 9b94038c16c22e4368aeeb
+      - id: cf58de9a327ded22da2df2
+        comments: ""
+        enabled: true
+        order: 11
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: e773b161ee6ef6da6c756e
+      - id: 16180db2c1ca40cf1e50ed
+        comments: ""
+        enabled: true
+        order: 12
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: ebadfa07a7a96d2c68fbf0
+      - id: 89571ad5d92ef616cc9f99
+        comments: ""
+        enabled: true
+        order: 13
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 65fa7b74b8eddf865b2aa9
+      - id: 5854e2c0ad35e90783d342
+        comments: ""
+        enabled: true
+        order: 14
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 6a7d16ff4ea23bd076a038
+      - id: d59b36ccf27265817b5004
+        comments: ""
+        enabled: true
+        order: 15
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: aa0ced0954eb0cfae7623c
+      - id: 1d77ff9d6b17a30974b3dc
+        comments: ""
+        enabled: true
+        order: 16
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: e8e6bac32143dd65f2dad2
+      - id: 38544fcda29f2ba81c7355
+        comments: ""
+        enabled: true
+        order: 17
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+        parameterMaps:
+          - direction: Input
+            name: keys
+            value: send
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: e8e6bac32143dd65f2dad2
+      - id: 309bf717cac975ac946b44
+        comments: ""
+        enabled: true
+        order: 18
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 574715d3976bdbb82c3889
+      - id: 27631cc006b6a6de7525fa
+        comments: ""
+        enabled: true
+        order: 19
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: a66d89f109ddc8774e8bf3
+      - id: e40d2b38ebe9bb1e6abeda
+        comments: ""
+        enabled: true
+        order: 20
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: c28d5f62f8f3749e80cd57
+      - id: 399888549a8a682e0817cf
+        comments: ""
+        enabled: true
+        order: 21
+        repeat: 1
+        type: Action
+        settings:
+          sleepTime: -1
+          timeout: -1
+          sleepTiming: Inherit
+          failureBehaviorType: Inherit
+          takeScreenshotConditionType: Inherit
+        action:
+          source: System
+          id: 02d572b2-d610-4700-9ad3-40076ddb9807
+        parameterMaps: []
+        conditions: []
+        validations: []
+        contexts: []
+        elementId: 333d1b64a7df61fcb4445a
+    parameters:
+      - name: ApplicationURL
+        description: Auto generated application URL parameter
+        value: https://mail.google.com/mail/u/0/#inbox
+        type: Input
+    tags: []
+auxTests: []
+elements:
+  - id: 333d1b64a7df61fcb4445a
+    name: Sign out
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NTE
+      name: Link
+      source: System
+    locators:
+      - name: CSSSELECTOR
+        value: "#gb_71"
+        priority: 0
+      - name: XPATH
+        value: //a[. = 'Sign out']
+        priority: 1
+      - name: XPATH
+        value: //div[5]/a
+        priority: 2
+      - name: XPATH
+        value: /html/body/div[7]/div[2]/div/div[1]/div[3]/header/div[2]/div[4]/div[5]/a
+        priority: 3
+  - id: c28d5f62f8f3749e80cd57
+    name: A
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NTE
+      name: Link
+      source: System
+    locators:
+      - name: XPATH
+        value: //div[2]/div[2]/div/a
+        priority: 0
+      - name: XPATH
+        value: /html/body/div[7]/div[2]/div/div[1]/div[3]/header/div[2]/div[3]/div[1]/div[2]/div[2]/div/a
+        priority: 1
+  - id: a66d89f109ddc8774e8bf3
+    name: Send
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDc
+      name: Button
+      source: System
+    locators:
+      - name: CSSSELECTOR
+        value: "[id = ':p7']"
+        priority: 0
+      - name: XPATH
+        value: //div/div[1][. = 'Send']
+        priority: 1
+      - name: XPATH
+        value: //div/table/tbody/tr/td[1]/div/div/div[1]
+        priority: 2
+      - name: XPATH
+        value: /html/body/div[19]/div/div/div/div[1]/div[6]/div[1]/div[1]/div/div/div/div[3]/div/div/div[4]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/div/div/div[4]/table/tbody/tr/td[1]/div/div[2]/div[1]
+        priority: 3
+  - id: 574715d3976bdbb82c3889
+    name: :qm
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjM
+      name: Div
+      source: System
+    locators:
+      - name: CSSSELECTOR
+        value: "[id = ':qm']"
+        priority: 0
+      - name: XPATH
+        value: //div[1]/div/table/tbody/tr/td[2]/div[2]/div
+        priority: 1
+      - name: XPATH
+        value: /html/body/div[19]/div/div/div/div[1]/div[6]/div[1]/div[1]/div/div/div/div[3]/div/div/div[4]/table/tbody/tr/td[2]/table/tbody/tr[1]/td/div/div[1]/div[2]/div[1]/div/table/tbody/tr/td[2]/div[2]/div
+        priority: 2
+  - id: e8e6bac32143dd65f2dad2
+    name: subjectbox
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDM
+      name: Generic Web Element
+      source: System
+    locators:
+      - name: CSSSELECTOR
+        value: "[id = ':ph']"
+        priority: 0
+      - name: CSSSELECTOR
+        value: "[name='subjectbox']"
+        priority: 1
+      - name: XPATH
+        value: //input[@placeholder = 'Subject']
+        priority: 2
+      - name: XPATH
+        value: //div[3]/div/input
+        priority: 3
+      - name: XPATH
+        value: /html/body/div[19]/div/div/div/div[1]/div[6]/div[1]/div[1]/div/div/div/div[3]/div/div/div[4]/table/tbody/tr/td[2]/form/div[3]/div/input
+        priority: 4
+  - id: aa0ced0954eb0cfae7623c
+    name: DIV2
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjM
+      name: Div
+      source: System
+    locators:
+      - name: XPATH
+        value: //div[32]/div[1]/div/div[1]/div
+        priority: 0
+      - name: XPATH
+        value: /html/body/div[32]/div[1]/div/div[1]/div
+        priority: 1
+  - id: 6a7d16ff4ea23bd076a038
+    name: to
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk2OTA
+      name: textarea
+      source: System
+    locators:
+      - name: CSSSELECTOR
+        value: "[id = ':pz']"
+        priority: 0
+      - name: CSSSELECTOR
+        value: "[name='to']"
+        priority: 1
+      - name: XPATH
+        value: //form/div[1]/table/tbody/tr[1]//textarea
+        priority: 2
+      - name: XPATH
+        value: /html/body/div[19]/div/div/div/div[1]/div[6]/div[1]/div[1]/div/div/div/div[3]/div/div/div[4]/table/tbody/tr/td[2]/form/div[1]/table/tbody/tr[1]/td[2]/div/div/textarea
+        priority: 3
+  - id: 65fa7b74b8eddf865b2aa9
+    name: Compose1
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDc
+      name: Button
+      source: System
+    locators:
+      - name: XPATH
+        value: //div[1]/div[1]/div[1]/div/div[. = 'Compose']
+        priority: 0
+      - name: XPATH
+        value: //div[7]/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/div
+        priority: 1
+      - name: XPATH
+        value: /html/body/div[7]/div[2]/div/div[2]/div[1]/div[1]/div[1]/div/div
+        priority: 2
+  - id: ebadfa07a7a96d2c68fbf0
+    name: Compose
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjM
+      name: Div
+      source: System
+    locators:
+      - name: XPATH
+        value: //div[2]/div[1]/div/div[. = 'Compose']
+        priority: 0
+      - name: XPATH
+        value: //div[7]/div[2]/div/div[2]/div[1]/div[1]/div[1]
+        priority: 1
+      - name: XPATH
+        value: /html/body/div[7]/div[2]/div/div[2]/div[1]/div[1]/div[1]
+        priority: 2
+  - id: e773b161ee6ef6da6c756e
+    name: DIV1
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjM
+      name: Div
+      source: System
+    locators:
+      - name: XPATH
+        value: //div[2]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div
+        priority: 0
+      - name: XPATH
+        value: /html/body/div[7]/div[2]/div/div[2]/div[1]/div[2]/div/div/div/div/div[1]/div
+        priority: 1
+  - id: 9b94038c16c22e4368aeeb
+    name: IMG
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NTI
+      name: Image
+      source: System
+    locators:
+      - name: XPATH
+        value: //div[2]/div/a/img
+        priority: 0
+      - name: XPATH
+        value: /html/body/div[7]/div[2]/div/div[1]/div[3]/header/div[2]/div[3]/div[1]/div[2]/div[2]/div/a/img
+        priority: 1
+  - id: e00e543e3775ede1836d1e
+    name: DIV
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjM
+      name: Div
+      source: System
+    locators:
+      - name: XPATH
+        value: //div[1]/div/div/button/div[3]
+        priority: 0
+      - name: XPATH
+        value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/div[3]
+        priority: 1
+  - id: e506801fdb741d9452d2e4
+    name: password
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDY
+      name: Textbox
+      source: System
+    locators:
+      - name: CSSSELECTOR
+        value: "[name='password']"
+        priority: 0
+      - name: XPATH
+        value: //div/div/div[1]/div[1]/div/div/div/div/div//input
+        priority: 1
+      - name: XPATH
+        value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input
+        priority: 2
+  - id: 00f80e4f0f5eea1e675762
+    name: Next
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NjU
+      name: span
+      source: System
+    locators:
+      - name: XPATH
+        value: //span[. = 'Next']
+        priority: 0
+      - name: XPATH
+        value: //div[2]/div/div/div[2]/div/div[2]/div/div[1]//span
+        priority: 1
+      - name: XPATH
+        value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/span
+        priority: 2
+  - id: 33882c8422da88b5691e68
+    name: identifier
+    description: ""
+    type:
+      id: jUwODgyNjAyNzk2NTk1NDY
+      name: Textbox
+      source: System
+    locators:
+      - name: CSSSELECTOR
+        value: "#identifierId"
+        priority: 0
+      - name: CSSSELECTOR
+        value: "[name='identifier']"
+        priority: 1
+      - name: XPATH
+        value: //section/div/div/div[1]//input
+        priority: 2
+      - name: XPATH
+        value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div/div[1]/div/div[1]/input
+        priority: 3
+projectParameters: []
+addons: []
